@@ -1,0 +1,45 @@
+.box {
+  background-color: rgba(226, 225, 225, 0.884);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  position: static;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.box img {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  right: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.daftar{
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgb(103, 103, 243);
+    color: white;
+}
+.footer{
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+

@@ -1,0 +1,40 @@
+.carousel-item img {
+  height: 450px;
+  size: cover;
+}
+.nav-item {
+  color: white;
+  text-align: right;
+}
+.layanann {
+  margin: 20px auto;
+}
+.layanan {
+  background-color: rgba(255, 255, 255, 0.884);
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  border-radius: 10px;
+  position: static;
+  margin-left: 60px;
+}
+.layanan img {
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  right: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.col-md-6 {
+  align-content: center;
+  text-align: center;
+}
+.col-md-6 img {
+  width: 400px;
+  height: 400px;
+}
+.image img{
+    width: 100%;
+    height: 400px;
+}

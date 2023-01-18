@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Risaldi</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.jpg" alt="" width="60" height="60" class="d-inline-block align-text-top"
+                    style="border-radius: 50%;">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html"
+                            style="font-weight: bold;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sektor.html" style="font-weight: bold;">SEKTOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="tentang.html" style="font-weight: bold;">TENTANG</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="backgound">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/orang.png" alt="" style="width:450px; height: 500px;">
+                </div>
+                <div class="col-md-6">
+                    <div id="text"></div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <center>
+        <p style="font-size: xx-large; font-weight: bold;">GERAKAN NASIONAL PARTAI DEMOKRAT LAWAN CORONA<br>
+            PEDULI DAN BERBAGI</p>
+        <hr width="25%" noshade size="5%" align="right" color="blue"><br>
+
+    </center>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SkipXlzdklg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen style="margin-right: 10px;"></iframe>
+            </div>
+            <div class="col-md-6" style="padding-left: 10px;">
+                <p style="font-size: xx-large; font-weight: bold; color: white;">SEKILAS PARTAI DEMOKRAT</p>
+                <p style="font-size: medium; font-weight: 500; color: white;">Partai Demokrat adalah Partai Nasionalis-Religius, Partai Terbuka, Partai Tengah, partai yang
+                    menjunjung tinggi Pluralisme dan partai yang peduli pada Rakyat Kecil.</p>
+                <br>
+                <br>
+                <button type="button" class="btn btn-danger">Selengkapnya</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <p style="margin-left: 10px;"> © Copyright 2020 | Risaldi</p>
+
+
+    <script type="text/javascript">
+        var i = 0, text;
+        text = "INDONESIA MAJU";
+        function typing() {
+            if (i < text.length) {
+                document.getElementById("text").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typing, 50);
+            }
+        }
+        typing();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
